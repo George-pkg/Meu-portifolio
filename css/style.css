@@ -17,10 +17,19 @@ main {
 }
 
 button {
-    display: block;
+    display: inline-block;
+    text-align: center;
     width: 40px;
     height: 50px;
-    text-align: center;
-    margin: auto;
     background-color: blue;
+    color: whitesmoke;
+}
+
+.a :hover {
+    background-color: rgb(99, 99, 111);
+}
+
+div {
+    margin: auto;
+    text-align: center;
 }
