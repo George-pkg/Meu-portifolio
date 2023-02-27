@@ -22,6 +22,7 @@ button {
     background-color: blue;
     color: whitesmoke;
     margin: 0px;
+    cursor: pointer;
 }
 
 button#ingles{
