@@ -19,17 +19,56 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     background-color: rgb(2, 2, 29);
 }
+header{
+    height: 80px;
+    background-color: rgb(4, 4, 35);
+    margin: 0px;
+    box-shadow: 5px 5px rgba(1, 1, 23, 0.648);
+    margin-bottom: 10px;
+}
+
+header > img {
+    height: 80px;
+    width: 80px;
+}
 
 main {
-    width: 900px;
-    height: 700px;
-    background-color: rgb(4, 4, 35);
     margin: auto;
+}
+
+main > div > h1 {
+    color: #FAFAFA;
+}
+
+div#meu_nome{
+    padding-top: 50px;
+    font-size: 1.8em;
+    height: 750px;
+    width: 850px;
+    padding-left: 50px;
+    margin: auto;
+}
+
+div > h1#animaçao_nome{
+    color: rgb(12, 12, 176);
+    
+}
+
+div > p{
+    color: #c1bebe;
+    font-size: 1em;
+} 
+
+article {
+    margin: auto;
+    height: 600px;
+    background-color: rgb(5, 5, 46);
 }
 
 button {
@@ -53,7 +92,7 @@ button:hover {
     background-color: rgb(99, 99, 111);
 }
 
-div {
+div#button {
     display: flex;
     justify-content: center;
     align-items: center; 
