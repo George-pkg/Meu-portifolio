@@ -1,6 +1,7 @@
 var el = document.querySelector("#animaçao_nomes");
 var animaçao_nomes = "eorge Guiro|"
 var interval = 200;
+
 function showtext(el, animaçao_nomes, interval) {
   var char = animaçao_nomes.split("").reverse();
   
