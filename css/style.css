@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+/* cores principais 
+
+    #FF0043 == red
+    #FAFAFA == white
+    #535353 == gray
+
+    escolhas dark
+
+    #100F10 == forte
+    #1B1B1B == medio
+    #242424 == claro
+
+    
+
+*/
+
 * {
     padding: 0px;
     margin: 0px;
@@ -27,6 +43,10 @@ button {
 
 button#ingles{
     border-radius: 0px 15px 15px 0px;
+}
+
+button#portugues{
+    border-radius: 15px 0px 0px 15px;
 }
 
 button:hover {
