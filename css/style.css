@@ -36,6 +36,16 @@ header{
 header > img {
     height: 80px;
     width: 80px;
+    display: inline-block;
+}
+nav {
+    display: inline-block;
+}
+nav > p {
+    color:#FAFAFA;
+    display: inline-block;
+    text-align: right;
+
 }
 
 main {
