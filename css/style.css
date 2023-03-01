@@ -39,15 +39,15 @@ header > img {
     width: 80px;
     display: inline-block;
 }
+
 nav {
     display: inline-block;
 }
+
 nav > p {
     color:#FAFAFA;
     display: inline-block;
     padding: 15px;
-
-
 }
 
 nav > p:hover {
