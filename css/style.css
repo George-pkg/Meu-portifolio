@@ -42,9 +42,11 @@ header > img {
 
 nav {
     display: inline-block;
+    position: relative;
 }
 
 nav > p {
+    position: absolute;
     color:#FAFAFA;
     display: inline-block;
     padding: 15px;
@@ -67,7 +69,7 @@ div#meu_nome{
     padding-top: 50px;
     font-size: 1.8em;
     height: 600px;
-    width: 850px;
+    max-width: 850px;
     padding-left: 50px;
     margin: auto;
     text-align: left;
