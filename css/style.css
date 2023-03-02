@@ -158,6 +158,16 @@ div#button {
      right: 45px;
      font-size: 60px;
 }
+
+.open {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#espaço{
+    display: inline-block;
+    width: 65%;
+}
   
 @media screen and (max-height:450px){
     .overlay a {font-size: 20px}
