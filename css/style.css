@@ -89,6 +89,7 @@ article {
     margin: auto;
     height: 600px;
     background-color: rgb(5, 5, 46);
+    display: flex;
 }
 
 article > div#foto-minha{
