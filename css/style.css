@@ -27,6 +27,7 @@ body{
 }
 header{
     height: 80px;
+    height: 100%;
     background-color: rgb(6, 6, 58);
     margin: 0px;
     box-shadow: 5px 5px rgba(1, 1, 23, 0.648);
@@ -45,15 +46,14 @@ nav {
     position: relative;
 }
 
-nav > p {
-    position: absolute;
+nav > a {
+    text-decoration: solid;
     color:#FAFAFA;
     display: inline-block;
     padding: 15px;
 }
 
-nav > p:hover {
-    cursor: pointer;
+nav > a:hover {
     color: rgba(8, 107, 255, 0.937)
 }
 
@@ -165,5 +165,17 @@ div#button {
       font-size: 40px;
       top: 15px;
       right: 35px;
+    }
+}
+
+@media screen and (max-width:550px){
+    nav > a {
+        display: none;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .overlay a{
+        display: none;
     }
 }
