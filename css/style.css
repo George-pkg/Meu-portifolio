@@ -174,8 +174,8 @@ div#button {
     }
 }
 
-@media screen and (max-width:550px) {
-    .overlay a{
+@media screen and (min-width:550px) {
+    header span{
         display: none;
     }
 }
