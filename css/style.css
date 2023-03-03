@@ -25,9 +25,13 @@
 body{
     background-color: rgb(2, 2, 29);
 }
+
 header{
+    display: flex;
     height: 80px;
-    height: 100%;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
     background-color: rgb(6, 6, 58);
     margin: 0px;
     box-shadow: 5px 5px rgba(1, 1, 23, 0.648);
