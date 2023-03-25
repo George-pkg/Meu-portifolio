@@ -86,7 +86,6 @@ div > h1#animaçao_nome{
 
 div > p{
     color: #c1bebe;
-    font-size: max(25px, 5vw);
 } 
 
 article {
@@ -100,9 +99,10 @@ article p {
     width: 80%;
     word-break: break-word;
     color:#c1bebe;
-    font-size: larger;
+    font-size: 2vw;
     text-justify: auto;
     margin: auto;
+
 }
 
 article > div#foto-minha{
@@ -212,6 +212,7 @@ div#button {
     nav > a {
         display: none;
     }
+
 }
 
 @media screen and (max-width:700px){
@@ -226,7 +227,7 @@ div#button {
         width: 100%;
         word-break: break-word;
         color:#c1bebe;
-        font-size: larger;
+        font-size: 3.1vw;
         text-justify: auto;
     }
 
