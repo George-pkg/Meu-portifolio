@@ -86,7 +86,7 @@ div > h1#animaçao_nome{
 
 div > p{
     color: #c1bebe;
-    font-size: 1em;
+    font-size: max(25px, 5vw);
 } 
 
 article {
