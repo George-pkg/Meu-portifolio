@@ -212,6 +212,11 @@ div#button {
 
 }
 
+.trabalhos img{
+    height: 200px;
+    width: 400px;
+}
+
 #espaço{
     display: inline-block;
     width: 65%;
