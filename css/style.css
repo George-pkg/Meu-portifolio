@@ -123,24 +123,37 @@ article > div#foto-minha > img{
 }
 
 button {
-    width: 40px;
+    width: 80px;
     height: 50px;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 15px;
     background-color: blue;
-    color: whitesmoke;
     margin: 0px;
+    color: whitesmoke;
     cursor: pointer;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 60%;
+    transform: translate(-60%);
+}
+
+button:nth-child(2) {
+    margin-left: -100px;
 }
 
 button:hover {
     background-color: rgb(99, 99, 111);
 }
 
+/* 
 div#lugar-btn {
     display: flex;
     justify-content: center;
     align-items: center; 
 }
-
+*/
 .overlay {
     height: 100%;
     width: 0;
@@ -189,9 +202,9 @@ div#lugar-btn {
 
 .projetos {
     position: relative;
-    
+    overflow-x: hidden;
     padding-top: 30px;
-    height: 400px;
+    height: 340px;
     background-color: darkblue;
     align-items: center;
 }
