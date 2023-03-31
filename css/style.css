@@ -118,6 +118,7 @@ article > div#foto-minha > img{
     height: 90%;
     margin: auto;
     border-image: auto;
+    border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.721);
 }
 
@@ -130,19 +131,11 @@ button {
     cursor: pointer;
 }
 
-button#ingles{
-    border-radius: 0px 15px 15px 0px;
-}
-
-button#portugues{
-    border-radius: 15px 0px 0px 15px;
-}
-
 button:hover {
     background-color: rgb(99, 99, 111);
 }
 
-div#button {
+div#lugar-btn {
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -195,24 +188,34 @@ div#button {
 }
 
 .projetos {
+    position: relative;
+    overflow-x: hidden;
     padding-top: 30px;
-    width: 100vw;
-    height: 700px;
+    height: 400px;
     background-color: darkblue;
     align-items: center;
 }
+.proj-tra {
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-items: start;
+    transition: 0.4s ease-in-out;
+}
 
-.trabalhos  {
-    margin: 10px 100px 10px 100px;
-    padding: 10px;
-    background-color: #818181;
-    display: inline-block;
-
+.trabalhos {
+    margin: 0 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .trabalhos img{
-    height: 250px;
-    width: 350px;
+    height: 300px;
+    width: 400px;
 }
 
 #espaço{
