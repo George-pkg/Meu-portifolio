@@ -140,6 +140,7 @@ section > img.img_code{
     margin: auto;
     width: 230px;
     height: 230px;
+    max-width: 100%;
 }
 
 /* FUNÇÃO DE FLUTUAÇÃO */
@@ -291,7 +292,6 @@ button:hover {
 
 @media screen and (max-width:700px){
     article > div#foto-minha{
-        height: 100%;
         align-items: center;
         display: flex;
         flex-basis: 100%;
@@ -303,6 +303,8 @@ button:hover {
         color:#c1bebe;
         font-size: 3.1vw;
         text-justify: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     section > img.img_code{
@@ -311,6 +313,8 @@ button:hover {
         height: 180px;
         display: inline-block;
     }
+
+
 
 }
 
