@@ -60,6 +60,31 @@ for(let i=0; i<item.length; i++){
 }
 
 function next(){
-  count = count - screen.width; // -20
-  slider.style.left = - count + "px";
+  if(inc !== itemSlide + itemleft) {
+    if(inc === itemSlide){
+      inc = inc + itemleft;
+      count = count - (screen.width / itemDisplay) * itemleft;
+    }
+    else{
+      inc ++;
+      count = count - 150;
+    }
+  }
+  count = count - 350;
+  slider.style.left = count + "px";
+}
+
+function prev(){
+  if(inc !== 0) {
+    if(inc === itemleft){
+      inc = inc - itemleft;
+      count = count + (screen.width / itemDisplay) * itemleft;
+    }
+    else{
+      inc --;
+      count = count + 150;
+    }
+  }
+  count = count + 350;
+  slider.style.left = count + "px";
 }
