@@ -39,11 +39,15 @@ header{
     color: #FAFAFA;
 }
 
+/* FAVICON */
+
 header > img {
     height: 80px;
     width: 80px;
     display: inline-block;
 }
+
+/* HEADER */
 
 nav {
     display: inline-block;
@@ -83,6 +87,7 @@ div > h1#animaçao_nome{
     color: rgb(12, 12, 176);
     
 }
+/* ARTICLE SOBRE MIM */
 
 div > p{
     color: #c1bebe;
@@ -121,6 +126,37 @@ article > div#foto-minha > img{
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.721);
 }
+
+/* SECTION DAS IMG DEV */
+
+section#linguagens {
+    height: 600px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+}
+
+section > img.img_code{
+    margin: auto;
+    width: 230px;
+    height: 230px;
+}
+
+/* FUNÇÃO DE FLUTUAÇÃO */
+
+@keyframes float{
+	0%,100%{
+		transform:translatey(0)
+	}
+	50%{
+		transform:translatey(-30px)
+	}
+}
+.efeito-flutuante-infinito {
+     animation: float 3s ease-in-out infinite;
+}
+
+/* BOTÃO DO CARROCEL */
 
 button {
     width: 80px;
