@@ -294,17 +294,21 @@ button:hover {
     article > div#foto-minha{
         align-items: center;
         display: flex;
-        flex-basis: 100%;
+        height: 300px;
+        width: 400px;
+        margin: auto;
+    }
+
+    article{
+        display: block;
     }
 
     article p {
-        width: 100%;
+        width: 90%;
         word-break: break-word;
         color:#c1bebe;
-        font-size: 3.1vw;
+        font-size: 3.4vw;
         text-justify: auto;
-        display: flex;
-        flex-direction: column;
     }
 
     section > img.img_code{
