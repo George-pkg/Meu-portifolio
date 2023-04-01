@@ -44,15 +44,20 @@ var itemDisplay = 0;
 
 if(screen.width > 990){
   itemDisplay = document.getElementsByClassName("projetos")[0].getAttribute("item-display-d");
+  margin = itemDisplay * 5;
 }
 if(screen.width > 700 && screen.width < 990){
   itemDisplay = document.getElementsByClassName("projetos")[0].getAttribute("item-display-t");
+  margin = itemDisplay * 6.8;
 }
 if(screen.width > 280 && screen.width < 700){
   itemDisplay = document.getElementsByClassName("projetos")[0].getAttribute("item-display-m");
+  margin = itemDisplay * 20;
 }
 
 var item = document.getElementsByClassName("trabalhos");
 var itemleft = item.length % itemDisplay;
-var itemSlide = Math.floor(item.length / itemDisplay)
-console.log(itemSlide)
+var itemSlide = Math.floor(item.length / itemDisplay) - 1;
+for(let i=0; i<item.length; i++){
+  item[i].style.width = (screen.width / itemDisplay)- margin + "px";
+}
