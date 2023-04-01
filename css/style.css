@@ -218,7 +218,7 @@ div#lugar-btn {
     overflow-x: hidden;
     padding-top: 30px;
     height: 340px;
-    background-color: darkblue;
+    background-color: rgb(7, 7, 76);
     align-items: center;
 }
 .proj-tra {
@@ -249,7 +249,7 @@ button {
     font-size: 20px;
     margin: 20px;
     border-radius: 15px;
-    background-color: blue;
+    background-color: rgb(11, 11, 93);
     margin: 0px;
     color: whitesmoke;
     cursor: pointer;
