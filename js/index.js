@@ -58,3 +58,7 @@ var itemSlide = Math.floor(item.length / itemDisplay) - 1;
 for(let i=0; i<item.length; i++){
   item[i].style.width = (screen.width / itemDisplay)- margin + "px";
 }
+
+function next(){
+  slider.style.left = - screen.width + "px";
+}
