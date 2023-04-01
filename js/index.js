@@ -60,5 +60,6 @@ for(let i=0; i<item.length; i++){
 }
 
 function next(){
-  slider.style.left = - screen.width + "px";
+  count = count - screen.width; // -20
+  slider.style.left = - count + "px";
 }
