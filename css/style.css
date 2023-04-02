@@ -283,24 +283,22 @@ button:hover {
     }
 }
 
-@media screen and (max-width:600px){
-    nav > a {
-        display: none;
-    }
-
-}
-
 @media screen and (max-width:700px){
+    div#meu_nome{
+        height: 800px;
+    }
+    
     article > div#foto-minha{
         align-items: center;
         display: flex;
-        height: 300px;
+        height: 500px;
         width: 400px;
         margin: auto;
     }
 
     article{
         display: block;
+        height: 750px
     }
 
     article p {
@@ -318,8 +316,35 @@ button:hover {
         display: inline-block;
     }
 
+    section > img.baixo{
+        align-self: flex-end;
+        overflow-x: hidden;
+    }
+}
 
+@media screen and (max-width:600px){
+    nav > a {
+        display: none;
+    }
 
+}
+
+@media screen and (max-width:500px){
+    div#meu_nome{
+        height: 800px;
+    }
+
+    article{
+        height: 750px;
+    }
+
+    article > div#foto-minha{
+        align-items: center;
+        display: flex;
+        height: 500px;
+        width: 400px;
+        margin: auto;
+    }
 }
 
 @media screen and (min-width:600px) {
