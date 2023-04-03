@@ -135,8 +135,7 @@ section#linguagens {
     display: flex;
     align-items: center;
 }
-
-section > img.img_code{
+div.colun_1, div.colun_2{
     margin: auto;
     width: 230px;
     height: 230px;
@@ -315,11 +314,13 @@ button:hover {
         height: 180px;
         display: inline-block;
     }
+    div.colun1, div.colun_2{
+        width: 100%;
+    }
 
-    section > img.baixo{
-        align-self: flex-end;
-        overflow-x: hidden;
-
+    section#linguagens { 
+        display: block;
+        padding: 50px 10px;
     }
 }
 
