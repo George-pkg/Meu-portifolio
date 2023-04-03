@@ -242,7 +242,7 @@ div#lugar-btn {
     width: 400px;
 }
 
-/* BOTÃO DO CARROCEL */
+/* BOTÃO DO CARROCEL  */
 
 button {
     width: 80px;
@@ -319,6 +319,7 @@ button:hover {
     section > img.baixo{
         align-self: flex-end;
         overflow-x: hidden;
+
     }
 }
 
