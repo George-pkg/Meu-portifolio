@@ -242,10 +242,18 @@ div#lugar-btn {
     justify-content: center;
 }
 
-.trabalhos img{
+.trabalhos img {
     height: 300px;
     width: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.637), 10px 10px 5px rgba(0, 0, 0, 0.637);
 }
+
+.trabalhos img:hover {
+    box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.637), 5px 5px 5px rgba(0, 0, 0, 0.637);
+
+}
+
 
 /* BOTÃO DO CARROCEL  */
 
