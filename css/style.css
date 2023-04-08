@@ -319,10 +319,10 @@ button:hover {
         width: 180px;
         height: 180px;
         display: inline-block;
+        padding: 20px 20px;
     }
     div.colun1, div.colun_2{
         width: 100%;
-        margin: auto;
     }
 
     section#linguagens { 
@@ -335,6 +335,14 @@ button:hover {
 @media screen and (max-width:600px){
     nav > a {
         display: none;
+    }
+
+    img.img_code{
+        margin: auto;
+        width: 140px;
+        height: 140px;
+        display: inline-block;
+        padding: 20px 20px;
     }
 
 }
