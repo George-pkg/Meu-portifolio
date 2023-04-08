@@ -322,6 +322,7 @@ button:hover {
     }
     div.colun1, div.colun_2{
         width: 100%;
+        margin: auto;
     }
 
     section#linguagens { 
