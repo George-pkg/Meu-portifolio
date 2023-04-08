@@ -130,7 +130,7 @@ article > div#foto-minha > img{
 /* SECTION DAS IMG_DEV */
 
 section#linguagens {
-    height: 600px;
+    height: 650px;
     background-color: rgb(2, 2, 29);
     display: flex;
     align-items: center;
@@ -138,7 +138,7 @@ section#linguagens {
 div.colun_1, div.colun_2{
     margin: auto;
     width: 230px;
-    height: 230px;
+    height: 400px;
     max-width: 100%;
 }
 
@@ -314,7 +314,7 @@ button:hover {
         text-justify: auto;
     }
 
-    section > img.img_code{
+    img.img_code{
         margin: auto;
         width: 180px;
         height: 180px;
