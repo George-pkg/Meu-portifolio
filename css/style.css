@@ -292,6 +292,12 @@ footer {
     height: 100px;
     display: flex;
     margin-top: 100px;
+    flex-direction: column;
+}
+
+footer div {
+    margin: auto;
+    width: 100%;
 }
 
 
