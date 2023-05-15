@@ -16,12 +16,6 @@
 
 */
 
-* {
-    padding: 0px;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body{
     background-color: rgb(2, 2, 29);
 }
@@ -148,19 +142,6 @@ img.img_code{
     height: 230px;
 }
 
-/* FUNÇÃO DE FLUTUAÇÃO */
-
-@keyframes float{
-	0%,100%{
-		transform:translatey(0)
-	}
-	50%{
-		transform:translatey(-30px)
-	}
-}
-.efeito-flutuante-infinito {
-     animation: float 3s ease-in-out infinite;
-}
 
 /* 
 div#lugar-btn {
@@ -170,52 +151,6 @@ div#lugar-btn {
 }
 */
 
-/* ANIMAÇÃO DO MENU */
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
- }
-  
-.overlay-content {
-     position: relative;
-     top: 25%;
-     width: 100%;
-     text-align: center;
-     margin-top: 30px;
-}
-  
-.overlay a {
-     padding: 8px;
-     text-decoration: none;
-     font-size: 36px;
-     color: #818181;
-     display: block;
-     transition: 0.3s;
-}
-  
-.overlay a:hover, .overlay a:focus {
-     color: #f1f1f1;
-}
-  
-.overlay .closebtn {
-     position: absolute;
-     top: 20px;
-     right: 45px;
-     font-size: 60px;
-}
-
-.open {
-    font-size: 50px;
-    cursor: pointer;
-}
 
 /* CARROCEL DE PROJETOS */
 
@@ -298,98 +233,4 @@ footer {
 footer div {
     margin: auto;
     width: 100%;
-}
-
-
-  
-@media screen and (max-height:450px){
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
-    }
-}
-
-@media screen and (max-width:700px){
-    div#meu_nome{
-        height: 800px;
-    }
-    
-    article > div#foto-minha{
-        align-items: center;
-        display: flex;
-        height: 500px;
-        width: 400px;
-        margin: auto;
-    }
-
-    article{
-        display: block;
-        height: 750px
-    }
-
-    article p {
-        width: 90%;
-        word-break: break-word;
-        color:#c1bebe;
-        font-size: 3.4vw;
-        text-justify: auto;
-    }
-
-    img.img_code{
-        margin: auto;
-        width: 180px;
-        height: 180px;
-        display: inline-block;
-        padding: 20px 20px;
-    }
-    div.colun1, div.colun_2{
-        width: 100%;
-    }
-
-    section#linguagens { 
-        display: flex;
-        padding: 50px 10px;
-        height: 700px;
-    }
-}
-
-@media screen and (max-width:600px){
-    nav > a {
-        display: none;
-    }
-
-    img.img_code{
-        margin: auto;
-        width: 140px;
-        height: 140px;
-        display: inline-block;
-        padding: 50px 20px;
-    }
-
-}
-
-@media screen and (max-width:500px){
-    div#meu_nome{
-        height: 800px;
-    }
-
-    article{
-        height: 750px;
-    }
-
-    article > div#foto-minha{
-        align-items: center;
-        display: flex;
-        height: 500px;
-        width: 400px;
-        margin: auto;
-    }
-}
-
-@media screen and (min-width:600px) {
-    header span{
-        display: none;
-    }
 }
