@@ -13,7 +13,7 @@
     
     --border-bottom:0.1px solid rgba(255, 255, 255, 0.150);
     --padding:9.6rem;
-    --font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 * {
@@ -42,4 +42,85 @@ ul, li, a{
 
 .wrapper{
     width: 102.4rem;     
+}
+
+.btn-contatos{
+    background: linear-gradient(225deg, rgba(102,16,242,0.3) 0%, rgba(102,16,242,0) 100%);
+    width: 23rem;
+    height: 5.8rem;
+    border: 0.5px solid var(--text-point);
+
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    font-size: 1.8rem;
+    cursor:pointer;
+    
+}
+.btn-contatos-menu{
+    background: linear-gradient(225deg, rgba(102,16,242,0.3) 0%, rgba(102,16,242,0) 100%);
+    width: 23rem;
+    height: 5.8rem;
+    border: 0.5px solid var(--text-point);
+
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    font-size: 1.8rem;
+    cursor:pointer;
+    
+}
+.btn:hover{
+    transition: .5s;
+    transform: scalex(1.1);
+}
+.icon{
+    width: 50rem;
+}
+.icon-services{
+    width: 7rem;
+    margin-bottom: 3rem;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: var(--background-primary);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--text-point);
+    border-radius: 2rem; 
+}
+body{
+    scrollbar-width: thin;
+    background-color: var(--background-primary);
+}
+
+#backTop {
+    position: fixed;
+    bottom: 1rem;
+    right: 2.5rem;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(100%);
+
+
+}
+#backTop.show {
+    opacity: 1;
+    visibility: visible;
+
+    transition: 500ms;
+    transform: translateY(0);
+    
+}
+.displayNone{
+    display: none;
+}
+.btn-menu{
+    width: 3.5rem;
+    position: fixed;
+    top: 2.5rem;
+    right: 2rem;
+    z-index: 9999;
 }

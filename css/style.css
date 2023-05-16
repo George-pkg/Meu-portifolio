@@ -45,7 +45,7 @@
     align-items: center;
     justify-content: center;
 
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     height: 8rem;
 }
 
@@ -73,29 +73,50 @@
 
 /* ============ HOME =============== */
 
+#home{
+    background-color: var(--background-primary);
+    height: 90vh;
 
-main {
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home .wrapper{
+    display: flex;
+    justify-content: center;
+    padding-inline: 5rem;
+}
+#home .col-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+#home .col-b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+.col-a h2{
+    font-size: 2.4rem;
+    color: var(--white);
+    font-weight: 400;
+    text-align: start;
+}
+.col-a h1{
+    font-size: 5.6rem;
+    color: var(--white);
+    font-weight: 500;
+}
+#btnContatos{
+    margin-top: 2rem;
+}
+.auto-type{
+    color: var(--text-point);
+    font-weight: 500;
 }
 
-main > div > h1 {
-    color: #FAFAFA;
-}
-
-div#meu_nome{
-    padding-top: 50px;
-    font-size: 1.8em;
-    height: 600px;
-    max-width: 850px;
-    padding-left: 50px;
-    margin: auto;
-    text-align: left;
-}
-
-div > h1#animaçao_nome{
-    color: rgb(12, 12, 176);
-    
-}
 /* ARTICLE SOBRE MIM */
 
 div > p{
