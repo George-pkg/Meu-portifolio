@@ -17,25 +17,35 @@
 
     <!-- Cabeçario -->
 
-    <header>
-        <img src="img/favicon.png" alt="logo gerge">
-        <nav>
-            <a href="#">HOME</a>
-            <a href="#">SOBRE</a>
-            <a href="#">PROJETOS</a>
-            <a href="#">SOCIAL</a>
-        </nav>
-        <div id="espaço"></div>
-        <div id="myNav" class="overlay">
+    <header id="header" class="header">
+        <div class="wrapper">
+            <nav class="navigation">
+                <div class="nav-box">
+                    <a onclick="removeMenuExpanded()"  href="#"><h2 class="logo">George</h2></a>
+                </div>
+
+                <div class="content-nav">
+                    <ul id="nav-menu" class="nav-menu">
+                        <li><a onclick="removeMenuExpanded()" href="#about">Quem sou</a></li>
+                        <li><a onclick="removeMenuExpanded()" href="#projects">Projetos</a></li>
+                        <li><a onclick="removeMenuExpanded()" href="#services">Serviços</a></li>
+                        <li><a onclick="removeMenuExpanded()" href="#skills">Conhecimentos</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="espaço">
+
+            </div>
+            <div id="myNav" class="overlay">
             <a href="javascript:void(0)" 
             class="closebtn" 
             
             onclick="closeNav()">&times;</a>
             <div class="overlay-content">
-              <a href="#">HOME</a>
-              <a href="#">SOBRE</a>
-              <a href="#">PROJETOS</a>
-              <a href="#">SOCIAL</a>
+                <a href="#">Quem sou</a>
+                <a href="#">Projetos</a>
+                <a href="#">Serviços</a>
+                <a href="#">Conhecimentos</a>
             </div>
           </div>
   
@@ -43,20 +53,32 @@
           
           onclick="openNav()">&#9776;
           </span>
+        </div>
+        
     </header>
 
     <!-- Tela inicial -->
 
     <main>
-        <div id="meu_nome">
-            <h1>
-                olá, eu sou
-            </h1>
-            <h1 id="animaçao_nome">
-                G<span id="animaçao_nomes"></span>
-            </h1>
-            <p id="pp">Developer</p>
-        </div>
+        <section id="home">
+            <div class="wrapper">
+        
+                <div class="col-a">
+                    <h2><span class="emoji-hand">👋</span> Olá, eu sou </h2>
+                    <h1>George Guiro.</h1>
+                    <div class="box-typing">
+                        <h2><span class="auto-type"></span></h2>
+                    </div>
+                    <a id="btnContatos" class="btn-contatos" href="#" target="_blank">Linkedin</a>
+                </div>
+        
+                <div class="col-b">
+                    <img class="icon" src="" alt="icon person">
+                </div>
+        
+            </div>
+                
+        </section>
 
         <!-- Sobre mim -->
 
@@ -91,10 +113,6 @@
     </main>
     <footer>
         <div>
-        </div>
-        <div class="redes_sociais">
-            <button class="unit" type="button"> <i class=""></i></button>
-            <button class="unit" type="button"> <i class=""></i></button>
         </div>
     </footer>
     <script src="js/index.js"></script>

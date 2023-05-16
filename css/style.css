@@ -16,48 +16,63 @@
 
 */
 
-body{
-    background-color: rgb(2, 2, 29);
-}
+/* ============ HEADER =============== */
 
-header{
+.header{
     display: flex;
-    height: 80px;
-    max-width: 100%;
+    justify-content:center;
+    
+}
+.navigation .content-nav{
+    border-bottom: var(--border-bottom);
+    background: rgba(10,10,25,0.7);
+    backdrop-filter: blur(24px);
+    display: flex;
     align-items: center;
-    text-align: center;
-    background-color: rgb(6, 6, 58);
-    margin: 0px;
-    box-shadow: 5px 5px rgba(1, 1, 23, 0.648);
-    margin-bottom: 10px;
-    color: #FAFAFA;
+    justify-content: center;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    padding-inline: .8rem;
+
+    position: fixed;
+    z-index: 100;
 }
 
-/* FAVICON */
 
-header > img {
-    height: 80px;
-    width: 80px;
-    display: inline-block;
+.navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.5rem;
+    height: 8rem;
 }
 
-/* HEADER */
-
-nav {
-    display: inline-block;
-    position: relative;
+.navigation a{
+    color: var(--color-paragraph);
+    padding-left: 4.8rem;
 }
 
-nav > a {
-    text-decoration: solid;
-    color:#FAFAFA;
-    display: inline-block;
-    padding: 15px;
+.navigation a:hover{
+    color:var(--white);
+}
+.logo{
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    width: 15rem;
+    color:var(--white);
+    font-size: 3rem;
+    text-shadow: 0px 0px 30px var(--text-point);
+
+    z-index: 9999;
+
 }
 
-nav > a:hover {
-    color: rgba(8, 107, 255, 0.937)
-}
+
+/* ============ HOME =============== */
+
 
 main {
     margin: auto;
@@ -142,80 +157,6 @@ img.img_code{
     height: 230px;
 }
 
-
-/* 
-div#lugar-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-*/
-
-
-/* CARROCEL DE PROJETOS */
-
-.projetos {
-    position: relative;
-    overflow-x: hidden;
-    padding-top: 30px;
-    height: 340px;
-    background-color: rgb(7, 7, 76);
-    align-items: center;
-}
-.proj-tra {
-    position: absolute;
-    display: flex;
-    align-items: start;
-    justify-items: start;
-    transition: 0.4s ease-in-out;
-}
-
-.trabalhos {
-    margin: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.trabalhos img {
-    height: 300px;
-    width: 400px;
-    border-radius: 10px;
-    box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.637), 10px 10px 5px rgba(0, 0, 0, 0.637);
-}
-
-.trabalhos img:hover {
-    box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.637), 5px 5px 5px rgba(0, 0, 0, 0.637);
-
-}
-
-
-/* BOTÃO DO CARROCEL  */
-
-button {
-    width: 80px;
-    height: 50px;
-    font-size: 20px;
-    margin: 20px;
-    border-radius: 15px;
-    background-color: rgb(11, 11, 93);
-    margin: 0px;
-    color: whitesmoke;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    position: absolute;
-    left: 60%;
-    transform: translate(-60%);
-}
-
-button:nth-child(2) {
-    margin-left: -100px;
-}
-
-button:hover {
-    background-color: rgb(99, 99, 111);
-}
 
 #espaço{
     display: inline-block;
