@@ -9,11 +9,25 @@
     }
 }
 
-@media screen and (max-width:700px){
-    div#meu_nome{
-        height: 800px;
+@media screen and (max-width:700px){   
+    /* GERAL */
+
+    .wrapper{
+    width: 60rem;
     }
+    .box-txt h1{
+    font-size: 5rem;
+    }
+
+    /* HEADER */
     
+    #home .col-a h2{
+    font-size:4.5rem;
+    }
+    #home .col-a h1{
+    font-size: 6.5rem;
+    }
+     
     article > div#foto-minha{
         align-items: center;
         display: flex;
